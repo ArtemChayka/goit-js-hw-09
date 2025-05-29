@@ -23,8 +23,11 @@ a {
   text-decoration: none;
 }
 
+
 button {
+  display: block;
   cursor: pointer;
+  font-family: inherit;
 }
 
 img {
