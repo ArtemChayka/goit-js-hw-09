@@ -1,0 +1,16 @@
+ul {
+    max-width: 1128px;
+    padding-block: 48px;
+    padding-left: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    width: calc((1128px - 24px * 2) / 3);
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
